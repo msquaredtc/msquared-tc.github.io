@@ -1,0 +1,12 @@
+h1 { color: yellow; }
+
+h4, h5, h6 {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+.nice {
+    font-style: italic;
+    color: yellow;
+}
