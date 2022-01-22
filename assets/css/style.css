@@ -9,6 +9,11 @@ body {
 	background: black;
 }
 
+table.bodywrapcenter>tr>td {
+    width: 100%;
+    float: left;
+}
+
 strong { font-weight: 600; }
 
 a, a:hover, a:focus { color: #9b59b6; text-decoration: none; transition: all .3s; }
@@ -30,7 +35,8 @@ h3 {
     line-height: 30px;
 }
 
-img { max-width: 100%; padding-top: 100px; }
+img { max-width: 100%; padding-top: 0px; display: block; }
+img2 { max-width: 100%; padding-top: 0px; display: inline; }
 
 .medium-paragraph {
 	font-size: 17px;
