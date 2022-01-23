@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
 									 mute: true, isVideo: true, loop: true }]);
     $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg");
 	$('.testimonials-container').backstretch("assets/img/backgrounds/1.jpg");
-	//$('.about-us-container').backstretch("assets/img/about/miami.jpg");
+	//$('.about-us-container').backstretch("assets/img/backgrounds/blur-close-up-color-dark-1129253.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
