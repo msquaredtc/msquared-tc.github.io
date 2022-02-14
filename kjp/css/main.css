@@ -2125,8 +2125,8 @@ nav a:hover {
   padding: 20px 0;
   width: 100% !important;
   background: transparent;
-	background-color: black;
-	opacity: 50%;
+  background-color: black;
+  opacity: 50%;
 }
 
 .sticky-wrapper {
@@ -2135,12 +2135,14 @@ nav a:hover {
 
 .is-sticky .default-header {
   height: 72px !important;
-  background-color: #222;
+  background-color: #000000;
+	
   border-bottom: 1px solid #323232;
 }
 
 .banner-area {
-  margin-top: 0px;
+  margin-top: -100px;
+	background-color: black;
 }
 
 .banner-area .fullscreen {
