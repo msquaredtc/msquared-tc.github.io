@@ -2251,12 +2251,13 @@ nav a:hover {
 }
 
 .about-area {
-  background-color: #222;
+  background-color: black;
 }
 
 .about-right {
   padding-right: 8%;
   padding-left: 5%;
+  
 }
 
 @media (max-width: 1199px) {
@@ -2508,7 +2509,7 @@ h6 {
 
 .footer-social a {
   padding: 10px 15px;
-  background: #111111;
+  background: #000000;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2520,7 +2521,7 @@ h6 {
 }
 
 .footer-social i {
-  color: #cccccc;
+  color: #ffffff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
