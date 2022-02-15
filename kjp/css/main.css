@@ -2171,11 +2171,13 @@ nav a:hover {
   color: #fff;
   text-align: right;
   bottom: 85px;
+  position: absolute;
 }
 
 .carousel-caption h2 {
   margin-bottom: 20px;
   letter-spacing: 3px;
+	position: absolute;
 }
 
 .gallery-area {
@@ -2422,7 +2424,7 @@ nav a:hover {
 }
 
 .contact-left img {
-  width: 100%;
+  width: 50%;
 }
 
 .contact-right {
@@ -2528,6 +2530,17 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 
+.footer-right {
+	text-align: right;
+}
+
+.footer-right a {
+	margin: 0 6px;
+    font-size: 32px;
+    color: #aaa;
+}
+.footer-right a:hover, .footer-right a:focus { color: #eee; }
+
 @media (max-width: 1199px) {
   .footer-social {
     margin-top: 30px;
@@ -2545,7 +2558,7 @@ h6 {
 }
 
 .footer-text a, .footer-text i {
-  color: #7a77ff;
+  color: #ffffff;
 }
 
 .whole-wrap {
